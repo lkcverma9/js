@@ -89,3 +89,39 @@ console.log(typeof stringSome)
 /**
  * conversion of data type
  */
+
+
+// ********************************** Operation *******************************************
+// arthemtic operation
+let value=3
+let negValue=-value
+console.log(negValue)
+
+let str1="Hello"
+let str2=" Saurabh"
+let str3=str1+str2
+console.log(str3)
+
+console.log(1+2)
+console.log("1"+2)
+console.log(1+"2")
+console.log("1"+"2")
+console.log("1"+2+"2")
+console.log(1+2+"2")
+//
+
+let x = 3;
+const y = x++;
+
+console.log(`x:${x}, y:${y}`);
+// Expected output: "x:4, y:3"
+
+let a = 3;
+const b = ++a;
+
+console.log(`a:${a}, b:${b}`);
+// Expected output: "a:4, b:4"
+
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+//https://tc39.es/ecma262/multipage/abstract-operations.html
